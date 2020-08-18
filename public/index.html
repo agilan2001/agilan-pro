@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AGILAN</title>
+
+  <!--
+    <script defer src="/__/firebase/7.18.0/firebase-app.js"></script>
+    
+    <script defer src="/__/firebase/7.18.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.18.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.18.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.18.0/firebase-storage.js"></script>
+    
+    <script defer src="/__/firebase/init.js"></script>  -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <script src="https://kit.fontawesome.com/86a47226cf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css?q=p">
+
+
+</head>
+
+<body>
+  <div id="hdr">
+    <!--<img alt="logo" id="main_logo" src="images/logo.png">&nbsp; -->
+    <div id="main_ttl">AGILAN</div>
+    <div id="main_desc">-- Free Lancing Developer --</div>
+  </div>
+
+
+
+  <ul class="nav nav-pills ">
+    <li class="active"><a data-toggle="pill" href="#projects">PROJECTS</a></li>
+    <li><a data-toggle="pill" href="#resume">RESUME</a></li>
+    <li><a data-toggle="pill" href="#contact">CONTACT ME</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="projects" class="tab-pane fade in active">
+      <div class="container">
+        <div id="proj_cont">
+
+        </div>
+
+      </div>
+      <br><br><br><br><br>
+    </div>
+
+
+
+    <div id="resume" class="tab-pane fade">
+      <div class="container">
+        <div class="resume_header" style="color:deeppink">SKILL SET</div>
+        <div style="text-align: center;font-style: italic; font-size: 20px;">(My <a href="#"
+            onclick="$('[href=\'#projects\']').tab('show');">Projects</a> speak better...)</div>
+        <hr>
+        <div class="resume_skill_header">Web Technologies</div>
+        <div class="resume_skill_detail">
+          HTML, CSS, JavaScript, JQuery, Bootstrap, React, React-Native, NodeJS
+        </div>
+        <hr>
+        <div class="resume_skill_header">Programming Languages</div>
+        <div class="resume_skill_detail">
+          C, C++, Java (beginner), VB, Python (beginner)
+        </div>
+        <hr>
+        <div class="resume_skill_header">Development Technologies</div>
+        <div class="resume_skill_detail">
+          <table>
+            <tr>
+              <td style="padding-right: 10px;text-align: right;font-weight: bold;">Firebase:</td>
+              <td>RealTime Database, Cloud Functions, Cloud Messaging, Firestore Database, Firebase Hosting<br></td>
+            </tr>
+            <tr>
+              <td style="padding-right: 10px; text-align: right;font-weight: bold;">Heroku: </td>
+              <td>NodeJS Hosting</td>
+            </tr>
+          </table>
+        </div>
+        <hr>
+        
+        <div class="resume_header" style="color:lightsalmon;">EDUCATIONAL QUALIFICATIONS</div>
+        <table id="resume_education_table" class="table">
+          <tr>
+            <th>COURSE</th>
+            <th>INSTITUTE</th>
+            <th>Year of Passing</th>
+            <th>Grade</th>
+          </tr>
+          <tr>
+            <td><span style="border-top:1px solid white">B.E. (ECE)</span></td>
+            <td>Madras Institue of Technology,<br>Anna University</td>
+            <td>2022<br>(Expected)</td>
+            <td> CGPA 9.91<br>(till SEM 4)</td>
+          </tr>
+          <tr>
+            <td>HSLC</td>
+            <td>Sunbeam Matric. Higher Scecondary Schools,<br>Vellore.</td>
+            <td>2018</td>
+            <td>97.25%</td>
+          </tr>
+          <tr>
+            <td>SSLC</td>
+            <td>Sunbeam Matric. Higher Scecondary Schools,<br>Vellore.</td>
+            <td>2016</td>
+            <td>98%</td>
+          </tr>
+        </table>
+        <hr>
+
+
+        <div class="resume_header" style="color:blueviolet;">PERSONAL DETAILS</div>
+
+        <table id="resume_personal_table" class="table">
+          <tr>
+            <td class="resume_table_detail">Age</td>
+            <td id="age_td"></td>
+            <td rowspan="3"><img src="photo.jpg" style="width: 100px;"></td>
+          </tr>
+          <tr>
+            <td class="resume_table_detail">Gender</td>
+            <td >Male</td>
+          </tr>
+          <tr>
+            <td class="resume_table_detail">Email</td>
+            <td ><a href="mailto:agilanvlr2001@gmail.com">agilanvlr2001@gmail.com</a></td>
+          </tr>
+          <tr>
+            <td class="resume_table_detail">Mobile</td>
+            <td colspan="2">9384495336</td>
+          </tr>
+          <tr>
+            <td class="resume_table_detail">Address</td>
+            <td colspan="2">No. 2, Opp. Corporation Bank,<br>Adukkamparai, Vellore-632011,<br>TamilNadu, INDIA.</td>
+          </tr>
+          <tr>
+            <td class="resume_table_detail">Languages</td>
+            <td colspan="2">English (Speak, Write, Type),<br>Tamil (Speak, Write)</td>
+          </tr>
+          <tr>
+            <td class="resume_table_detail">Hobbies</td>
+            <td colspan="2">Quoran,<br>SoloLearner</td>
+          </tr>
+        </table>
+        <br><br><br><br>
+      </div>
+    </div>
+
+
+    <div id="contact" class="tab-pane fade">
+      <div class="container">
+        <div style="text-align: center; font-size: 18px;margin:10px">
+          <span class="glyphicon glyphicon-earphone"></span>
+          9384495336 <button style="margin-bottom: 10px;" class="call_btn"
+            onclick="location.href='tel:+919384495336'">CALL</button><button class="whats_btn"
+            onclick="location.href='https://api.whatsapp.com/send?phone=919384495336'">WhatsApp</button><br>
+            <span class="glyphicon glyphicon-envelope"></span>
+          <a href="mailto:agilanvlr2001@gmail.com">agilanvlr2001@gmail.com</a>
+        </div>
+
+        <div id="msg_tag">LEAVE A MESSAGE</div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <br>
+            <table id="msg_tbl" style="margin: auto;">
+              <tr>
+                <td>Name:</td>
+                <td><input id="msg_name" type="name" autocomplete="name"></td>
+              </tr>
+              <tr>
+                <td>Phone:</td>
+                <td><input id="msg_phone" type="tel" autocomplete="tel"></td>
+              </tr>
+              <tr>
+                <td>E-mail:</td>
+                <td><input id="msg_mail" type="email" autocomplete="email"></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-sm-6">
+            <span id="msg_span">Your Message</span>
+            <textarea id="msg_area"></textarea><br>
+            <button id="msg_send" onclick="send_msg();">SEND</button><span id="msg_resp"></span>
+          </div>
+        </div>
+        <br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    age_td.innerHTML = (new Date().getFullYear() - 2001) + " years";
+
+    var url = new URLSearchParams(location.search);
+    if (url.get("resume"))
+      $("[href='#resume']").tab("show");
+    var populate_proj = (data) => {
+      var temp = "";
+      for (var lang in data) {
+        temp += `<div class="proj_grp_head">${lang}</div>
+        <div class="proj_grp">`
+        data[lang].forEach((e, i) => {
+          temp += `
+          <div class="proj_div">
+            <div class="proj_div_title">${e.title}</div>
+            <div class="proj_div_desc">${e.desc}</div>
+            <div class="proj_div_tech_tag">Technologies:</div>
+            <div class="proj_div_tech">
+              <ul>
+            ${e.tech.map((e, i) => (
+            `<li>${e}</li>`
+          )
+          ).join("")}
+              </ul>
+            </div>
+            <div class="proj_div_git">
+            ${
+              Object.keys(e.link).map((el,i)=>(
+                `| <a href="${e.link[el]}">${el}</a> `
+              )).join("")
+            }
+            </div>
+          </div>`
+        })
+        temp += `</div>`
+      }
+      proj_cont.innerHTML = temp;
+    }
+
+    fetch("projects.json").then((res) => res.json()).then(data => populate_proj(data))
+
+    function send_msg() {
+        if (msg_area.value) {
+            msg_resp.innerHTML = "Thank you for your response";
+            $.ajax({
+                url: location.origin + "/sendMsg",
+                type: "POST",
+                data: { name: msg_name.value, tel: msg_phone.value, mail: msg_mail.value, msg: msg_area.value, date: Date.now() }
+            })
+        }
+
+    }
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+{
+    "WEB": [
+        {
+            "title": "Notify-Me",
+            "desc": "Browser Based Notification Reminders and Email Alerts",
+            "tech": [
+                "Cloud FireStore",
+                "Cloud Functions",
+                "Firebase Hosting",
+                "Firebase Cloud Messaging"
+            ],
+            "link": {
+                "Git Repo": "https://github.com/agilan2001/notify-me",
+                "Live Site": "https://notify-me-agiapp.web.app/"
+            }
+        },
+        {
+            "title": "Hand Cricket League",
+            "desc": "Play Hand Cricket 👍 with your Friends from anywhere",
+            "tech": [
+                "Firebse RTDatabase",
+                "Firebase Hosting"
+            ],
+            "link": {
+                "Git Repo": "https://github.com/agilan2001/hand_cricket",
+                "Live Site": "https://hand-cricket-agiapp.web.app/"
+            }
+        },
+        {
+            "title": "KAL Pathippagam Website",
+            "desc": "An e-commerce website for book purchase and orders",
+            "tech": [
+                "Firebse RTDatabase",
+                "Firebase Hosting",
+                "Firebase Cloud Messaging"
+            ],
+            "link": {
+                "Live Site": "https://kal-pathippagam.web.app/"
+            }
+        },
+        {
+            "title": "Rock Paper Scissors",
+            "desc": "Game of Rock Paper Scissors in Online version",
+            "tech": [
+                "Firebse RTDatabase",
+                "Firebase Hosting"
+            ],
+            "link": {
+                "Git Repo": "https://github.com/agilan2001/rock_paper_scissor",
+                "Live Site": "https://agilan2001.github.io/rock_paper_scissor/"
+            }
+        }
+    ],
+    "API": [
+        {
+            "title": "Thirukkural API",
+            "desc": "API returning the requested Thirukkural",
+            "tech": [
+                "Firebase RTDatabase",
+                "Cloud Functions",
+                "Firebase Hosting"
+            ],
+            "link": {
+                "Git Repo": "https://github.com/agilan2001/api-thiurkkural",
+                "Live Site": "https://api-thirukkural.web.app/"
+            }
+        },
+        {
+            "title": "Cool WhatsApp API",
+            "desc": "Funny API to send message from my WhatsApp number",
+            "tech": [
+                "Heroku PaaS",
+                "NodeJS"
+            ],
+            "link": {
+                "Git Repo": "https://github.com/agilan2001/CoolWhatsApp-API"
+            }
+        }
+    ],
+    "React-Native (Android/IOS)": [
+        {
+            "title": "Grader",
+            "desc": "Grade Points ( GPA / CGPA ) Calculator",
+            "tech": [
+                "AsyncStorage",
+                "ReactNative Paper",
+                "React Navigation"
+            ],
+            "link": {
+                "<i style='color:green' class='fab fa-android'></i> Android": "https://agilan2001.github.io/Grader/android/app/build/outputs/apk/release/Grader-release.apk",
+                "Git Repo": "https://github.com/agilan2001/Grader"
+            }
+        },
+        {
+            "title": "Prompt (!--Beta--!)",
+            "desc": "Notification Reminder and Timetable Scheduler",
+            "tech": [
+                "AsyncStorage",
+                "ReactNative Paper",
+                "React Navigation",
+                "ReactNative Animatable"
+            ],
+            "link": {
+                
+            }
+        }
+    ]
+}

@@ -87,7 +87,7 @@
                 "React Navigation"
             ],
             "link": {
-                "<i style='color:green' class='fab fa-android'></i> Android": "https://agilan2001.github.io/Grader/android/app/build/outputs/apk/release/Grader-release.apk",
+                "Android": "https://agilan2001.github.io/Grader/android/app/build/outputs/apk/release/Grader-release.apk",
                 "Git Repo": "https://github.com/agilan2001/Grader"
             }
         },

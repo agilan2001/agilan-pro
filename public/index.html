@@ -45,7 +45,7 @@
   <ul class="nav nav-pills ">
     <li class="active"><a data-toggle="pill" href="#projects">PROJECTS</a></li>
     <li><a data-toggle="pill" href="#resume">RESUME</a></li>
-    <li><a data-toggle="pill" href="#contact">CONTACT ME</a></li>
+    <li><a data-toggle="pill" href="#contact">CONNECT ME</a></li>
   </ul>
 
   <div class="tab-content">
@@ -103,7 +103,7 @@
           </tr>
           <tr>
             <td><span style="border-top:1px solid white">B.E. (ECE)</span></td>
-            <td>Madras Institue of Technology,<br>Anna University</td>
+            <td style="white-space: nowrap;">Madras Institue of Technology,<br>Anna University</td>
             <td>2022<br>(Expected)</td>
             <td> CGPA 9.91<br>(till SEM 4)</td>
           </tr>
@@ -202,7 +202,7 @@
     const ImgCaption = ({ data }) => (
       <div style={{ width: 'fit-content', border: '2px solid blue', borderRadius: '10px', margin: '5px', padding: '2px' }}>
         <img src={"./icons/" + data.split(":")[0] + ".png"} style={{ width: '80px', display: 'block', margin: 'auto' }} />
-        <div style={{ textAlign: "center" }}>{data.split(":")[0]}<br />{data.split(":")[1]}</div>
+        <div style={{ textAlign: "center" }}>{data.split(":")[0]}<div style={{fontSize:'small'}}>{data.split(":")[1]}</div></div>
       </div>
     );
 

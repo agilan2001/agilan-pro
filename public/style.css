@@ -195,6 +195,7 @@ body {
     flex-wrap: wrap;
     font-size: 20px;
     margin-left: 10px;
+    justify-content: center;
 }
 
 #resume_personal_table tr:nth-child(even) {

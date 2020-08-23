@@ -10,8 +10,8 @@
                 "Firebase Cloud Messaging"
             ],
             "link": {
-                "Git Repo": "https://github.com/agilan2001/notify-me",
-                "Live Site": "https://notify-me-agiapp.web.app/"
+                "<i style='color:black;' class='fab fa-github'></i> Git Repo": "https://github.com/agilan2001/notify-me",
+                "<i class='fas fa-link'></i> Live Site": "https://notify-me-agiapp.web.app/"
             }
         },
         {
@@ -22,8 +22,8 @@
                 "Firebase Hosting"
             ],
             "link": {
-                "Git Repo": "https://github.com/agilan2001/hand_cricket",
-                "Live Site": "https://hand-cricket-agiapp.web.app/"
+                "<i style='color:black;' class='fab fa-github'></i>  Git Repo": "https://github.com/agilan2001/hand_cricket",
+                "<i class='fas fa-link'></i> Live Site": "https://hand-cricket-agiapp.web.app/"
             }
         },
         {
@@ -46,8 +46,8 @@
                 "Firebase Hosting"
             ],
             "link": {
-                "Git Repo": "https://github.com/agilan2001/rock_paper_scissor",
-                "Live Site": "https://agilan2001.github.io/rock_paper_scissor/"
+                "<i style='color:black;' class='fab fa-github'></i> Git Repo": "https://github.com/agilan2001/rock_paper_scissor",
+                "<i class='fas fa-link'></i> Live Site": "https://agilan2001.github.io/rock_paper_scissor/"
             }
         }
     ],
@@ -61,8 +61,8 @@
                 "Firebase Hosting"
             ],
             "link": {
-                "Git Repo": "https://github.com/agilan2001/api-thiurkkural",
-                "Live Site": "https://api-thirukkural.web.app/"
+                "<i style='color:black;' class='fab fa-github'></i>  Git Repo": "https://github.com/agilan2001/api-thiurkkural",
+                "<i class='fas fa-link'></i> Live Site": "https://api-thirukkural.web.app/"
             }
         },
         {
@@ -73,7 +73,7 @@
                 "NodeJS"
             ],
             "link": {
-                "Git Repo": "https://github.com/agilan2001/CoolWhatsApp-API"
+                "<i style='color:black;' class='fab fa-github'></i> Git Repo": "https://github.com/agilan2001/CoolWhatsApp-API"
             }
         }
     ],
@@ -87,8 +87,8 @@
                 "React Navigation"
             ],
             "link": {
-                "Android": "https://agilan2001.github.io/Grader/android/app/build/outputs/apk/release/Grader-release.apk",
-                "Git Repo": "https://github.com/agilan2001/Grader"
+                "<i style='color:green' class='fab fa-android'></i> Android": "https://agilan2001.github.io/Grader/android/app/build/outputs/apk/release/Grader-release.apk",
+                "<i style='color:black;' class='fab fa-github'></i> Git Repo": "https://github.com/agilan2001/Grader"
             }
         },
         {

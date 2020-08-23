@@ -117,6 +117,7 @@ body {
     border: 2px solid green;
     color: black;
     margin: 5px auto;
+    border-radius: 10px;
 }
 
 #msg_send {

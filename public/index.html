@@ -116,7 +116,7 @@
             <td><span style="border-top:1px solid white">B.E. (ECE)</span></td>
             <td style="white-space: nowrap;">Madras Institue of Technology,<br>Anna University</td>
             <td>2022<br>(Expected)</td>
-            <td> CGPA 9.91<br>(till SEM 4)</td>
+            <td> CGPA 9.9</td>
           </tr>
           <tr>
             <td>HSLC</td>
@@ -134,13 +134,13 @@
         <hr>
 
 
-        <div class="resume_header" style="color:blueviolet;">PERSONAL DETAILS</div>
+        <div class="resume_header" style="color:cadetblue;">PERSONAL DETAILS</div>
 
         <table id="resume_personal_table" class="table">
           <tr>
             <td class="resume_table_detail">Age</td>
             <td id="age_td"></td>
-            <td rowspan="3"><img src="photo.jpg" style="width: 100px;"></td>
+            <td rowspan="3"><img src="photo.jpg" style="width: 100px; border-radius: 10px;"></td>
           </tr>
           <tr>
             <td class="resume_table_detail">Gender</td>
@@ -178,15 +178,7 @@
 
     <div id="contact" class="tab-pane fade">
       <div class="container">
-        <div style="text-align: center; font-size: 18px;margin:10px">
-          <span class="glyphicon glyphicon-earphone"></span>
-          9384495336 <button style="margin-bottom: 10px;" class="call_btn"
-            onclick="location.href='tel:+919384495336'">CALL</button><button class="whats_btn"
-            onclick="location.href='https://api.whatsapp.com/send?phone=919384495336'">WhatsApp</button><br>
-          <span class="glyphicon glyphicon-envelope"></span>
-          <a href="mailto:agilanvlr2001@gmail.com">agilanvlr2001@gmail.com</a>
-        </div>
-
+        
         <div id="msg_tag">LEAVE A MESSAGE</div>
 
 
@@ -202,6 +194,18 @@
             <button id="msg_send" onclick="send_msg();">SEND</button><span id="msg_resp"></span>
           </div>
         </div>
+        <hr>
+        <div style="text-align: center; font-size: 18px;margin:10px">
+          <!-- <span class="glyphicon glyphicon-earphone"></span> -->
+          <i class="fas fa-mobile-alt" ></i>
+          9384495336 <button style="margin-bottom: 10px;" class="call_btn"
+            onclick="location.href='tel:+919384495336'"><i class="fa fa-phone-alt"></i></button><button class="whats_btn"
+            onclick="location.href='https://api.whatsapp.com/send?phone=919384495336'"><i class="fa fa-whatsapp"></i></button><br>
+            <i class="fas fa-envelope"></i>
+          <!-- <span class="glyphicon glyphicon-envelope"></span> -->
+          <a href="mailto:agilanvlr2001@gmail.com">agilanvlr2001@gmail.com</a>
+        </div>
+
       </div>
       <br><br><br><br><br>
     </div>
@@ -211,7 +215,7 @@
 
 
     const ImgCaption = ({ data }) => (
-      <div style={{ width: 'fit-content', border: '2px solid blue', borderRadius: '10px', margin: '5px', padding: '2px' }}>
+      <div style={{ width: 'fit-content', border: '2px solid greenyellow', borderRadius: '10px', margin: '5px', padding: '2px' }}>
         <img src={"./icons/" + data.split(":")[0] + ".png"} style={{ width: '80px', display: 'block', margin: 'auto' }} />
         <div style={{ textAlign: "center" }}>{data.split(":")[0]}<div style={{fontSize:'small'}}>{data.split(":")[1]}</div></div>
       </div>
@@ -293,47 +297,11 @@
 
   <script>
 
-
-
     age_td.innerHTML = (new Date().getFullYear() - 2001) + " years";
 
     var url = new URLSearchParams(location.search);
     if (url.get("resume"))
       $("[href='#resume']").tab("show");
-
-
-    // var populate_proj = (data) => {
-    //   var temp = "";
-    //   for (var lang in data) {
-    //     temp += `< div class="proj_grp_head" > ${ lang }</div >
-            //     <div class="proj_grp">`
-            //     data[lang].forEach((e, i) => {
-            //       temp += `
-            //       <div class="proj_div">
-            //         <div class="proj_div_title">${e.title}</div>
-            //         <div class="proj_div_desc">${e.desc}</div>
-            //         <div class="proj_div_tech_tag">Technologies:</div>
-            //         <div class="proj_div_tech">
-            //           <ul>
-            //         ${e.tech.map((e, i) => (
-            //         `<li>${e}</li>`
-            //       )
-            //       ).join("")}
-            //           </ul>
-            //         </div>
-            //         <div class="proj_div_git">
-            //         ${
-            //         Object.keys(e.link).map((el, i) => (
-            //           `| <a href="${e.link[el]}">${el}</a> `
-            //         )).join("")
-            //         }
-            //         </div>
-            //       </div>`
-            //     })
-            //     temp += `</div>`
-            //   }
-            //   proj_cont.innerHTML = temp;
-            // }
 
             fetch("projects.json").then((res) => res.json()).then(data => populate_proj(data))
 
@@ -348,7 +316,6 @@
             }
 
           }
-
 
   </script>
 </body>
